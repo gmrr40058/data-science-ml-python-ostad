@@ -1,0 +1,87 @@
+{
+    "php.validate.executablePath": "",
+    "python.defaultInterpreterPath": "C:\\Users\\G M RIFAT REZA\\anaconda3\\python.exe",   // ✅ use Anaconda interpreter
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",                                        // ✅ keep basic mode for ML work
+    "editor.hover.enabled": true,
+    
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "files.autoSave": "afterDelay",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "settingsSync.ignoredExtensions": [
+        "vscode.markdown-language-features"
+    ],
+    "git.autofetch": true,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.pptx": "default"
+    },
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+
+    //
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+        "variable": "#f5f57a",
+        "namespace": "#ef7851",
+        "class": "#3366ff",
+        "method": "#00ccff",
+        "property": "#66ffcc",
+        "parameter": "#dada00",
+        "function": "#FF6666"
+
+    }
+},
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+//         {
+//             "scope": "constant.numeric",
+//             "settings": {
+//                 "foreground": "#54e454"
+//             }
+//         },
+        // {
+        //     "name": "String",
+        //     "scope": [
+        //         "string"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#9ff69f"
+        //     }
+        // },
+        {
+            "name": "Python keywords + declarations",
+            "scope": [
+                        //"keyword",
+                        //"keyword.operator",
+                        "keyword.control",
+                        "storage.type.class",
+                        "storage.type.function.python"
+                    ],
+                    "settings": {
+                        // "foreground": "#ef7851",
+                        "fontStyle": "bold italic"
+            }
+        }
+//         {
+//             "name": "Python keyword arguments",
+//             "scope": ["keyword.argument.python"],
+//             "settings": {
+//                 "foreground": "#dada00"   // choose your desired color
+//             }
+//         }
+    ]
+},
+"[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+},
+"workbench.colorTheme": "Atom One Dark",
+"editor.minimap.enabled": false
+}
