@@ -1,0 +1,16 @@
+Task :
+
+1. Load the data from the given csv file
+
+2. Identify the text column and the target label(s) that the model will learn to predict.
+
+3. Perform the necessary preprocessing steps to prepare the text data for training — clean, transform, and convert it into a numerical format suitable for an ANN.
+
+4. Build and train a simple Artificial Neural Network that can classify or categorize the text data.
+
+5. Evaluate the model’s performance and analyze the factors that may have affected its accuracy.
+
+
+Submission Instruction : 
+
+Submit the assignment as a .ipynb file. You do not need to re-upload the CSV dataset. Only the .ipynb file should be submitted.
